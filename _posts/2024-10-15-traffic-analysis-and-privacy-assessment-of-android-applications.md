@@ -1,8 +1,9 @@
 ---
+layout: post
 title: Traffic Analysis and Privacy Assessment of Android Applications
-date: 2024-10-15 12:00:00 -500
-categories: [university-level project]
-tags: [project, privacy, application, cybersecurity, network, compliance assessment, cookie, data security]
+date: 2024-10-15
+categories: [Project, AI]
+tags: [project, privacy, application, cybersecurity, network, compliance-assessment, cookie, data-security]
 ---
 
 
