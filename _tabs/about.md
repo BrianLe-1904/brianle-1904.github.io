@@ -26,8 +26,8 @@ Here are some ideas to get you started:
 -->
 <div>
 
-![img-description](https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white")
-![img-description](https://img.shields.io/badge/-Instagram-E4405F?&style=for-the-badge&logo=instagram&logoColor=white")
+![img-description](https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white)
+![img-description](https://img.shields.io/badge/-Instagram-E4405F?&style=for-the-badge&logo=instagram&logoColor=white)
 </div>
 
 ## 🌱 Brief Introduction
