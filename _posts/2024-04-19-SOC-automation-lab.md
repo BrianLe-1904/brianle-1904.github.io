@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SOC Automation LAB
-date: 2024-10-01
+date: 2024-14-19
 categories: [Project, SOC]
 tags: [project, attack, homelab, SOC, SOAR, application, cybersecurity, network, data-security]
 ---

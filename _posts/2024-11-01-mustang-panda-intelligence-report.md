@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Machine Learning for Web Tracking and Detection
+title: Mustang Panda Intelligence Report
 date: 2024-11-01
 categories: [Project, Threat Intelligence]
 tags: [project, threat-intelligence, cyber-intelligence, APT, nation-state]

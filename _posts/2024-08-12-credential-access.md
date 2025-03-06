@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Credential Access
-date: 2024-11-01
+date: 2024-08-12
 categories: [Project, Threat Intelligence]
 tags: [project, threat-intelligence, cyber-intelligence, APT, nation-state]
 ---
