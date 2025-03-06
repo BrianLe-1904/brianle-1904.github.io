@@ -22,10 +22,11 @@ This project involved analyzing network traffic and assessing privacy practices 
 
 ### Tools Used
 <div>
-    <img src="https://img.shields.io/badge/-mitmproxy-4CAF50?style=for-the-badge&logo=mitmproxy&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Android%20Emulator-3DDC84?style=for-the-badge&logo=Android&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white" />
+    
+![img-description](https://img.shields.io/badge/-mitmproxy-4CAF50?style=for-the-badge&logo=mitmproxy&logoColor=white)
+![img-description](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)
+![img-description](https://img.shields.io/badge/-Android%20Emulator-3DDC84?style=for-the-badge&logo=Android&logoColor=white")
+![img-description](https://img.shields.io/badge/-Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white")
 </div>
 
 
@@ -35,9 +36,8 @@ This project involved analyzing network traffic and assessing privacy practices 
 1. **Install and Configure mitmproxy**: Installed `mitmproxy` and set up network routing on an Android emulator to capture traffic.
 2. **Configuration on Android Emulator**: Configured the emulator’s proxy settings to route through `mitmproxy`, enabling interception of app traffic.
 
-<img width="452" alt="image" src="https://github.com/user-attachments/assets/19a1faac-f478-4125-9727-14b6a5dc970d">
-
-Figure 1: Traffic filtered for HTTP requests to http://admin.appnext.com/configuration.aspx.
+![img-description](https://github.com/user-attachments/assets/19a1faac-f478-4125-9727-14b6a5dc970d)
+_Traffic filtered for HTTP requests to http://admin.appnext.com/configuration.aspx._
 
 ### Part 2: Traffic Analysis on **YogaForDiabeties**
 1. **Identified Sensitive Data**: Captured HTTP requests to detect sensitive data, including `id`, `adsid`, and device identifiers sent to `appnext.com`.
@@ -45,17 +45,15 @@ Figure 1: Traffic filtered for HTTP requests to http://admin.appnext.com/configu
 3. **IMEI Exposure**: Detected the app transmitting the device’s IMEI to `airpush.com`, a significant privacy concern as this identifier uniquely links to the user’s device.
 4. **Ad Tracking Flags**: Analyzed the `adOpt` flag, identifying whether the app opted in or out of ad tracking.
 
-<img width="452" alt="image" src="https://github.com/user-attachments/assets/bc8ba044-d028-4bae-8e25-eca93a7c6f98">
-
-Figure 2: Filtered traffic showing POST requests from YogaForDiabities.
+<![img-description](https://github.com/user-attachments/assets/bc8ba044-d028-4bae-8e25-eca93a7c6f98)
+_Filtered traffic showing POST requests from YogaForDiabities._
 
 #### Part 3: Traffic Analysis on **MobInCube**
 1. **Location Data Collection**: Captured precise latitude and longitude data being sent to `stats.mobincube.com` along with carrier and device model information.
 2. **Policy Compliance Check**: Compared the app’s privacy policy against captured traffic data, noting missing disclosures on specific data practices.
 
-<img width="452" alt="image" src="https://github.com/user-attachments/assets/e82a398b-6bf7-4174-8dd4-4aaf40009f37">
-
-Figure 3: HTTP request showing the phone model and carrier name for MobInCube.
+![img-description](https://github.com/user-attachments/assets/e82a398b-6bf7-4174-8dd4-4aaf40009f37)
+_HTTP request showing the phone model and carrier name for MobInCube._
 
 
 ## Conclusion

@@ -34,11 +34,11 @@ The primary objective of this SOC Automation project was to develop an automated
 
 ### Step 1: Creating a SOC Automated Project Diagram
 The first step in building a Security Operations Center (SOC) automation project is to create a clear visual diagram that outlines the flow of data and interaction between key components: Wazuh, TheHive, and Shuffle (Figure 1 & 2). This diagram will serve as a blueprint, focusing on the automation workflow and data paths to facilitate case management and alert response.
-<img width="958" alt="step 1a" src="https://github.com/user-attachments/assets/24c474cf-edaa-4c72-bcab-12007f542143">
-(Figure 1)
+![img-description](https://github.com/user-attachments/assets/24c474cf-edaa-4c72-bcab-12007f542143)
+_Figure 1_
 
-<img width="1029" alt="step 1b" src="https://github.com/user-attachments/assets/f0ca39b3-6252-44a7-b88a-6b1ac9601dfc">
-(Figure 2)
+![img-description](https://github.com/user-attachments/assets/f0ca39b3-6252-44a7-b88a-6b1ac9601dfc)
+_Figure 2_
 
 #### A. Core Diagram Components
 
@@ -72,18 +72,18 @@ The emphasis should be on functionality rather than aesthetics. Each component r
 #### A. Virtual Machine (VM) Creation
 - Created a Windows 11 virtual machine on Mac M1 to simulate a Windows environment for security monitoring. Due to the lack of compatibility coming from the M1 chip with Windows 11 ISO files, CrystalFetch and UTM are used as a VM host (Figure 3).
 - Installed Sysmon on Windows 11 virtual machine and ensured the service was active and running.
-<img width="899" alt="step 2" src="https://github.com/user-attachments/assets/c34ee817-54a1-4960-8099-2adaee7b5d6a">
-(Figure 3)
+![img-description](https://github.com/user-attachments/assets/c34ee817-54a1-4960-8099-2adaee7b5d6a)
+_Figure 3_
 
 #### B. DigitalOcean Configuration
 - Set up two cloud droplets on Digital Ocean for hosting Wazuh and The Hive instances (Figure 4)
 - Configured firewall rules to control access (Figure 5):
   - Inbound Rules: Allowed TCP and UDP traffic only from my IP address (61.69.236.165) for secure and limited access.
   - Outbound Rules: No changes; kept the default settings to ensure general outbound connectivity.
-<img width="1545" alt="step 2a" src="https://github.com/user-attachments/assets/4bf07ba6-af93-49f9-830e-6b59e2762947">
-(Figure 4)
-<img width="1529" alt="step 2b" src="https://github.com/user-attachments/assets/e5a34d65-8fd8-49c8-8f3e-076f38818ca5">
-(Figure 5)
+![img-description](https://github.com/user-attachments/assets/4bf07ba6-af93-49f9-830e-6b59e2762947)
+_Figure 4_
+![img-description](https://github.com/user-attachments/assets/e5a34d65-8fd8-49c8-8f3e-076f38818ca5)
+_Figure 5_
 
 ### Step 3: Configuring Security Monitoring Tools
 
@@ -99,8 +99,8 @@ The emphasis should be on functionality rather than aesthetics. Each component r
   - After installation, store the login credentials for future use.
     
 **Login and Configuration**: Logged into the Wazuh dashboard to configure detection rules for various threats (Figure 6).
-<img width="1508" alt="step 3a" src="https://github.com/user-attachments/assets/5b84d361-4504-4e57-9f7c-925459b2fa15">
-(Figure 6)
+![img-description](https://github.com/user-attachments/assets/5b84d361-4504-4e57-9f7c-925459b2fa15)
+_Figure 6_
 #### B. The Hive Installation and Setup
 
 **The Hive Installation:**
@@ -113,9 +113,10 @@ The emphasis should be on functionality rather than aesthetics. Each component r
 - Enabled and started services to ensure The Hive and associated tools were ready for integration. Ensure that all essential dependencies are active (Figure 8).
 - Logged into The Hive dashboard to ensure that the connection is formed (Figure 9).
   
-<img width="417" alt="step 3" src="https://github.com/user-attachments/assets/9bc9537d-5b97-4e8a-b178-d5d9a2aaebb1"> (Figure 7)
-<img width="1033" alt="step 3b" src="https://github.com/user-attachments/assets/abc09881-b6f8-4bd4-a6a8-bfcff54912b4">
-<img width="1502" alt="step 3c" src="https://github.com/user-attachments/assets/7e35324a-dd6b-4686-acfb-641cb59d66af">
+![img-description](https://github.com/user-attachments/assets/9bc9537d-5b97-4e8a-b178-d5d9a2aaebb1)
+_Figure 7_
+![img-description](https://github.com/user-attachments/assets/abc09881-b6f8-4bd4-a6a8-bfcff54912b4)
+![img-description](https://github.com/user-attachments/assets/7e35324a-dd6b-4686-acfb-641cb59d66af)
 
 ### Step 4: Generating Telemetry and Configuring Alerts 
 
@@ -148,7 +149,7 @@ The emphasis should be on functionality rather than aesthetics. Each component r
 
 **Run Mimikatz**
    - Opened an administrator PowerShell session, navigate to the Mimikatz directory, and execute `mimikatz.exe`.
-<img width="717" alt="step 4b" src="https://github.com/user-attachments/assets/c905b315-6d1e-4846-a9f0-2cdf5ee0cbd4">
+![img-description](https://github.com/user-attachments/assets/c905b315-6d1e-4846-a9f0-2cdf5ee0cbd4)
 
 **Check for Mimikatz Events in Wazuh Dashboard**
    - Searched for Mimikatz-related events in the Wazuh dashboard.
@@ -178,12 +179,12 @@ The emphasis should be on functionality rather than aesthetics. Each component r
 **Test the Custom Alert**
     - Renamed `mimikatz.exe` to an alternative name (e.g., "brianistryinghisbest.exe").
     - Run the renamed file, then check the Wazuh dashboard for any triggered alerts.
-<img width="1633" alt="step 4c" src="https://github.com/user-attachments/assets/82288541-40c3-44a7-a44e-359ca1569b68">
+![img-description](https://github.com/user-attachments/assets/82288541-40c3-44a7-a44e-359ca1569b68)
 
 
 ### Step 5: Implementing with Shuffle
 - The Shuffle general diagram would be as follows:
-<img width="1069" alt="step 5 diagram" src="https://github.com/user-attachments/assets/ca30eb5c-a7f1-4c50-9f9f-93741ae4007f">
+![img-description](https://github.com/user-attachments/assets/ca30eb5c-a7f1-4c50-9f9f-93741ae4007f)
 
 #### A. Shuffle Setup
 
@@ -194,14 +195,14 @@ The emphasis should be on functionality rather than aesthetics. Each component r
 - Added a webhook trigger called "wazuh-alerts" to capture alerts from Wazuh, ensuring the webhook URI was correctly integrated into Wazuh’s configuration file.
 - 
 **Testing Webhook**: Generated sample alerts to verify successful event capture in Shuffle.
-<img width="786" alt="step 5" src="https://github.com/user-attachments/assets/5858ac01-70dd-4d8d-84d7-61eda89551fa">
+![img-description](https://github.com/user-attachments/assets/5858ac01-70dd-4d8d-84d7-61eda89551fa)
 
 #### B. Wazuh Alert Configuration
 **Configuration Modifications:**
 - Added an integration tag for Shuffle in the Wazuh configuration file to streamline alert sending.
 - Adjusted alert levels to use specific rule IDs for enhanced clarity.
 **Telemetry Testing**: Ran Powershell commands to generate telemetry for testing webhook functionality.
-<img width="1655" alt="step 5 Wazuh" src="https://github.com/user-attachments/assets/bd41f637-be50-4406-ad81-fe36b07b7fc2">
+![img-description](https://github.com/user-attachments/assets/bd41f637-be50-4406-ad81-fe36b07b7fc2)
 
 #### C. Parsing and Alert Processing
 
@@ -218,11 +219,11 @@ Established The Hive API connection using an API key to allow alert creation.
 
 **Alert Attributes:**
 Configured alert fields (severity, source, summary) to ensure detailed information for analyst review.
-<img width="1517" alt="step 5 TheHive in Shuffle" src="https://github.com/user-attachments/assets/9faa2a05-1911-4a4a-ad35-17c0ba0867bb">
+![img-description](https://github.com/user-attachments/assets/9faa2a05-1911-4a4a-ad35-17c0ba0867bb)
 
-<img width="1545" alt="step 5 Thehive dashboard" src="https://github.com/user-attachments/assets/6a017556-5e36-4be1-97f5-d29835bdde6d">
+![img-description](https://github.com/user-attachments/assets/6a017556-5e36-4be1-97f5-d29835bdde6d)
 
-<img width="1556" alt="step 5 theHive alert" src="https://github.com/user-attachments/assets/0bee86ee-140f-4997-bad0-657909dbd702">
+![img-description](https://github.com/user-attachments/assets/0bee86ee-140f-4997-bad0-657909dbd702)
 
 #### E. Email Notifications
 
@@ -231,7 +232,7 @@ Configured alert fields (severity, source, summary) to ensure detailed informati
   
 **Testing with Disposable Email:**
 - Used SquareX disposable email addresses to test notifications without personal email risks.
-<img width="779" alt="step 5 email" src="https://github.com/user-attachments/assets/fc61103e-1d9c-4977-b3c6-0d9f950c1011">
+![img-description](https://github.com/user-attachments/assets/fc61103e-1d9c-4977-b3c6-0d9f950c1011)
 
 #### F. User Input for Blocking IPs (to be updated)
 
@@ -240,7 +241,7 @@ Configured alert fields (severity, source, summary) to ensure detailed informati
   
 **Active Response Configuration:**
 - Configured Wazuh’s active response to act on analyst decisions to block IPs.
-<img width="931" alt="step 5 last" src="https://github.com/user-attachments/assets/8e7b09b1-1fbe-4139-a448-37d14513387b">
+![img-description](https://github.com/user-attachments/assets/8e7b09b1-1fbe-4139-a448-37d14513387b)
 
 ### Step 6: Testing and Further Directions
 - Verified the entire workflow by generating alerts and confirming that each step—alert detection, data parsing, VirusTotal checks, The Hive alert creation, and email notifications—was functioning as expected.

@@ -47,25 +47,23 @@ To potentially improve the classification performance of the One-Class SVM model
 ### RESULT AND DISCUSSION
 After implemented directories for each type of JavaScript files, the number of files was shown as follow: 
 
-<img width="341" alt="image" src="https://github.com/user-attachments/assets/cf71c11e-5921-4c8c-a3f5-fa6a94909a6b">
-
-Figure 6. Output of numbers of JS files from the dataset  by Types.
+![img-description](https://github.com/user-attachments/assets/cf71c11e-5921-4c8c-a3f5-fa6a94909a6b)
+_Output of numbers of JS files from the dataset  by Types._
 
 After feature extraction and data normalization, the dataset was divided into training, validation, and testing subsets with the ratios indicated above. The One-Class SVM with the default RBF kernel (gamma = 0.001 and nu = 0.001) was trained on the Tracking JS (uselessJS), and predictions were made on the test set. These results were then compared to the outcomes from the Baseline SVM, which was trained on the entire dataset. The results presented a prediction accuracy of 56% for the One-Class SVM compared to 76% for the Baseline SVM.
 
-<img width="452" alt="image" src="https://github.com/user-attachments/assets/3f26e9b1-76b8-4a19-9bb7-bf511e8a7bc4">
-
-Figure 7. Classification Report on Training subset of One-Class SVM and Baseline SVM models.
+![img-description](https://github.com/user-attachments/assets/3f26e9b1-76b8-4a19-9bb7-bf511e8a7bc4)
+_Classification Report on Training subset of One-Class SVM and Baseline SVM models._
 
 Subsequently, the models' performances were assessed using validation and testing subsets to effectively demonstrate the progression and efficiency of the single-class model under development. The Validation and Testing Accuracy of the One-Class SVM were 56.32% and 56.02%, respectively, compared to the Baseline SVM, which achieved accuracies of 73.18% and 72.66%. The resulting outcomes are presented as follows:
 
-<img width="452" alt="image" src="https://github.com/user-attachments/assets/a0b7fd8a-11d0-4ccb-b142-cf0886a406e9">
+![img-description](https://github.com/user-attachments/assets/a0b7fd8a-11d0-4ccb-b142-cf0886a406e9)
+_Classification Report on Validation subset of One-Class SVM and Baseline SVM._
 
-Figure 8. Classification Report on Validation subset of One-Class SVM and Baseline SVM.
+![img-description](https://github.com/user-attachments/assets/b079780c-9e7d-4786-824d-400f106552e1)
+_Classification Report on Testing subset of One-Class SVM and Baseline SVM._
 
-<img width="452" alt="image" src="https://github.com/user-attachments/assets/b079780c-9e7d-4786-824d-400f106552e1">
- 
-Figure 9. Classification Report on Testing subset of One-Class SVM and Baseline SVM.
+
 To enhance the classification performance, the One-Class SVM model underwent training and evaluation with parameter tuning to determine optimal values. The best parameters were identified as nu: 0.1 and gamma: scale, resulting in a validation accuracy of 60.34%. Subsequently, the model was tested using these optimal parameters and compared with the baseline SVM. The results indicated that the One-Class SVM's testing accuracy increased to 59%, a significant improvement over the default parameters (nu: 0.001 and gamma: 0.001). However, despite this improvement, the One-Class SVM's performance was still weak compared to the Baseline SVM, indicating a struggle to generalize as effectively as the Baseline SVM for this task.
 
 ### CONCLUSION
