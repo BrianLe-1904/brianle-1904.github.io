@@ -25,8 +25,9 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 <div>
-<a href="https://www.linkedin.com/in/brian-le-cybersecurity/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://www.instagram.com/dandanisbrian/"><img src="https://img.shields.io/badge/-Instagram-E4405F?&style=for-the-badge&logo=instagram&logoColor=white" /></a>
+
+![img-description](https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white")
+![img-description](https://img.shields.io/badge/-Instagram-E4405F?&style=for-the-badge&logo=instagram&logoColor=white")
 </div>
 
 ## 🌱 Brief Introduction
@@ -58,40 +59,40 @@ To secure a challenging position as a Level 1 SOC Analyst where I can apply my c
 ## 🛠️ Tools
 
 ### Network
-<div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-mitmproxy-4CAF50?style=for-the-badge&logo=mitmproxy&logoColor=white" /> 
-</div>
+
+![img-description](https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white)
+
+![img-description](https://img.shields.io/badge/-mitmproxy-4CAF50?style=for-the-badge&logo=mitmproxy&logoColor=white)
+
 
 ### Endpoint
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-</div>
+
+![img-description](https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white)
+
 
 ### SIEM
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Wazuh-0050DB?style=for-the-badge&logo=Wazuh&logoColor=white" /> 
-</div>
+
+![img-description](https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white)
+![img-description](https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white)
+![img-description](https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white)
+![img-description](https://img.shields.io/badge/-Wazuh-0050DB?style=for-the-badge&logo=Wazuh&logoColor=white)
+
 
 ### SOAR
-<div> <img src="https://img.shields.io/badge/-Shuffle-181717?style=for-the-badge&logo=Shuffle&logoColor=white" /> 
-</div> 
+![img-description](https://img.shields.io/badge/-Shuffle-181717?style=for-the-badge&logo=Shuffle&logoColor=white)
 
 ### Case Management
-<div> <img src="https://img.shields.io/badge/-TheHive-FADA5E?style=for-the-badge&logo=TheHive&logoColor=black" /> </div>
+![img-description](https://img.shields.io/badge/-TheHive-FADA5E?style=for-the-badge&logo=TheHive&logoColor=black)
 
 ### Scripting and Automation
-<div> <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" /> </div>
+![img-description](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)
 
 
 ## 📄 Certifications (expected 2025)
-<div>
-    <img src="https://img.shields.io/badge/-CompTIA_CySA+-E00A22?style=for-the-badge&logo=CompTIA&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Security_Blue_Team_BTL1-0A66C2?style=for-the-badge&logo=SecurityBlueTeam&logoColor=white" />
-</div>
+
+![img-description](https://img.shields.io/badge/-CompTIA_CySA+-E00A22?style=for-the-badge&logo=CompTIA&logoColor=white)
+![img-description](https://img.shields.io/badge/-Security_Blue_Team_BTL1-0A66C2?style=for-the-badge&logo=SecurityBlueTeam&logoColor=white)
+
 <!--
 <div>
 <img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
