@@ -14,12 +14,12 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Brian Le # the main title
+title: BRIAN LE # the main title
 
-tagline: Cybersecurity | Learner # it will display as the subtitle
+tagline: Cybersecurity Professional | MQU alumn # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A portfolio. can it work omg
+  A cybersecurity personal porfolio where I report what I have worked and learnt over years. Never stop improving!
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -38,11 +38,11 @@ social:
   email: brianle1904@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    # - https://twitter.com/username # change to your Twitter homepage
+    - https://github.com/BrianLe-1904 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/brian-le-cybersecurity/
 
 # Site Verification Settings
 webmaster_verifications:
