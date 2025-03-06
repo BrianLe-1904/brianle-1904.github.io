@@ -24,11 +24,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<div>
 
 ![img-description](https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white)
+
 ![img-description](https://img.shields.io/badge/-Instagram-E4405F?&style=for-the-badge&logo=instagram&logoColor=white)
-</div>
+
 
 ## 🌱 Brief Introduction
 As a soon-to-be graduate in Cybersecurity with a focus on Security Operations Center (SOC) analysis, I am passionate about defending networks from cyber threats and am eager to begin my career on the front lines of digital security. My training has equipped me with a strong foundation in cybersecurity principles, particularly in monitoring, threat intelligence, and incident response. Through hands-on experience with SIEM technologies and vulnerability management tools, I have developed the analytical skills needed to assess and escalate security incidents in real-time.
