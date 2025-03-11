@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Traffic Analysis and Privacy Assessment of Android Applications
+title: Project - Traffic Analysis and Privacy Assessment of Android Applications
 date: 2024-10-15
-categories: [Project, AI]
+categories: [Project, AI in Cybersecurity]
 tags: [project, privacy, application, cybersecurity, network, compliance-assessment, cookie, data-security]
 ---
 

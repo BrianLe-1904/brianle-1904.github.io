@@ -1,13 +1,13 @@
 ---
 layout: post
-title: SOC Automation LAB
+title: Personal Project - SOC Automation LAB
 date: 2024-14-19
 categories: [Project, SOC]
-tags: [project, attack, homelab, SOC, SOAR, application, cybersecurity, network, data-security]
+tags: [project, personal-project, attack, homelab, SOC, SOAR, application, cybersecurity, network, data-security]
 ---
 
 
-# SOC Automation Lab
+# Personal Project: SOC Automation Lab
 
 The primary objective of this SOC Automation project was to develop an automated, scalable detection and response workflow for handling security events, focusing on seamless integration between the Wazuh SIEM, TheHive incident response platform, and Shuffle (SOAR platform). This project demonstrates my ability to set up a secure environment, manage firewall rules, configure monitoring tools, and automate alert responses using a Security Orchestration, Automation, and Response (SOAR) platform. This aimed to streamline threat detection, triage, and remediation for events like Mimikatz detections on Windows 11 hosted on a Virtual Machine running on an M1 Mac, empowering security analysts to respond effectively with minimal manual intervention. 
 

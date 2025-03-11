@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Credential Access
+title: Review - Online Piracy in Australia
 date: 2024-11-01
-categories: [Project, Cyber Crime & Policy]
-tags: [project, CyberSecurity, Online-Piracy, Australia, DigitalRights, Content-Protection, Intellectual-Property, Anti-Piracy, Streaming-Services, CyberPolicy]
+categories: [Review, Cyber Crime & Policy]
+tags: [review, analysis, CyberSecurity, Online-Piracy, Australia, DigitalRights, Content-Protection, Intellectual-Property, Anti-Piracy, Streaming-Services, CyberPolicy]
 ---
 
-# Online Piracy in Australia
+# Online Piracy in Australia: An analysis
 
 ## Introduction
 

@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Poisoning Attacks in Machine Learning
+title: Review - AI in Cybersecurity - Poisoning Attacks in Machine Learning
 date: 2024-06-01
-categories: [Project, AI]
-tags: [project, AI, machine-learning, attack]
+categories: [Review, AI in Cybersecurity]
+tags: [review, AI, machine-learning, attack]
 ---
 
-# Poisoning Attacks in Machine Learning
+# AI in Cybersecurity: Poisoning Attacks in Machine Learning
 
 ## Introduction
 Artificial Intelligence (AI), particularly in machine learning (ML), has seen significant growth and recognition, bringing numerous benefits to everyday life. However, with these advancements come new security threats, specifically poisoning attacks on machine learning models. Poisoning attacks involve adversaries intentionally manipulating training data to compromise model integrity, leading to incorrect or biased predictions. These attacks can have serious consequences in critical applications like network security, financial fraud detection, and autonomous driving. This report provides a comprehensive review of poisoning attacks in machine learning, including their impact, evolution, and mitigation strategies to secure ML models effectively.

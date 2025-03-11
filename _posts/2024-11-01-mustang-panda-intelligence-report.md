@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Mustang Panda Intelligence Report
+title: Review - Mustang Panda Intelligence
 date: 2024-11-01
-categories: [Project, Threat Intelligence]
-tags: [project, threat-intelligence, cyber-intelligence, APT, nation-state]
+categories: [Review, Threat Intelligence]
+tags: [review, analysis, threat-intelligence, cyber-intelligence, APT, nation-state]
 ---
 
 
-# Mustang Panda Intelligence Report
+# Mustang Panda Intelligence
 
 ## Executive Summary
 

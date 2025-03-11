@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Credential Access
+title: Review - Threat Intelligence - Credential Access
 date: 2024-08-12
-categories: [Project, Threat Intelligence]
-tags: [project, threat-intelligence, cyber-intelligence, APT, nation-state]
+categories: [Review, Threat Intelligence]
+tags: [review, threat-intelligence, cyber-intelligence, APT, nation-state]
 ---
 
 # Credential Access: Stealing Web Session Cookies

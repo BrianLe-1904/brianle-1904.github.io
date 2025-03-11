@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Machine Learning for Web Tracking and Detection
+title: Project - Machine Learning for Web Tracking and Detection
 date: 2024-10-30
-categories: [Project, AI]
+categories: [Project, AI in Cybersecurity]
 tags: [project, privacy, application, cybersecurity, network, compliance-assessment, machine-learning, AI, web, data-security]
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Network Anomaly Detection Using Entropy for Attack Diagnostics
+title: Project - Network Anomaly Detection Using Entropy for Attack Diagnostics
 date: 2024-10-01
-categories: [Project, AI]
+categories: [Project, AI in Cybersecurity]
 tags: [project, attack, privacy, application, cybersecurity, network, compliance-assessment, cookie, data-security]
 ---
 
